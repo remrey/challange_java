@@ -1,0 +1,26 @@
+——————E1, Invalid input format ———————
+(A,B)   (A,C) (B, E) (B,F)
+(A,B) (A,C (B,D) B,E)
+    (P,B) (E,X) (P,D) (E,Y) (P,A)
+
+
+
+——————E2, Duplicate Pair  ———————
+(A,B) (B,C) (A,B) (A,C)
+(A,B) (B,C) (A,B)
+(J,P) (J,O) (J,N) (J,P)
+
+
+
+——————E3, parents more than 2 children ———————
+(A,B) (A,C) (D,E) (C,D) (D,F) (D,G)
+(X,Y) (R,D) (D,P) (R,A) (X,Z) (Z,T) (Z,B) (R,G)
+
+
+——————E4, Tree contains cycle———————
+(A,B) (A,C) (B,D) (D,C)
+(A,B) (B,D) (B,C) (C,A)
+
+
+——————E5, parents more than 2 children ———————
+(A,B) (B,C) (D,E) (E,F)
